@@ -1,0 +1,217 @@
+*{
+    /* background-color: black; */
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px ;
+    margin: 0px 0px 0px 0px;
+    color:azure ;
+}
+.navbar:hover{
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    transition: all 0.4s ease-in-out;
+    transition-delay: 5ms;
+    justify-content: space-between;
+}
+
+.ele1{
+    padding: 0px 0px 10px 20px;
+    color: azure;
+}
+
+.ele2{
+    color: azure;
+    display: flex;
+    justify-content: right  ;
+    align-items: center;
+}
+
+.ele2inner{
+    color: azure;
+}
+
+.ele2 a{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color: azure;
+}
+
+.imageClass {
+    height: 700px;
+    width: auto;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px 100px 0px ;
+    margin: 0px 0px 50px 0px;
+}
+
+.marquee-text {
+    animation: marquee-slide 5s left infinite;
+}
+
+.myname{
+    padding: 0px 0px 0px 0px ;
+    margin: 0px 0px 0px 0px;
+}
+
+.textonimage{
+    color: azure;
+    padding: 200px 10px 10px 10px    ;
+    display: flex; align-items: center; 
+    justify-content: center; 
+    background-color: transparent;
+}
+
+.myname{
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+}
+
+.myname2{
+    color: azure;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.aboutme{
+    display: flex;
+    color: rgb(0, 0, 0);
+    border-color: azure;
+    text-align: center;
+    height: auto;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding:10px 10px 10px 10px;
+}
+
+/* .firstdiv{
+    padding: 10px;
+    margin: 0px 0px 5px 0px;
+    margin: 0px 20px 10px 10px;
+    height: auto;
+} */
+
+.firstdiv{
+    flex-grow: 0.8; /* Allow the firstdiv to grow and take remaining space */
+    padding: 10px;
+    margin: 0 0 5px 0;
+    height: auto;
+}
+.leftside{  
+    margin:50px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    height: 170px;
+    width: 175px;
+    background-image: url("jitendra.jpeg");
+    background-size: auto;
+}
+
+.rightside{
+    padding: 85px 10px 10px 10px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .seconddiv{
+    margin: 0px 20px 10px 10px;
+    display: flex;
+    width: fit-content;
+    border: 2px solid black;
+} */
+
+.seconddiv{
+    flex-grow: 0.1; /* Allow the seconddiv to grow and take remaining space */
+    padding: 0 20px; /* Add padding to the sides for better spacing */
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skill1{
+    height: 15px;
+    width: 70%;
+    border: 2px solid black;
+    margin-left: 70px;
+}
+
+.skill2{
+    height: 15px;
+    width: 70%;
+    border: 2px solid black;
+    margin-left: 70px;
+}
+
+.skill3{
+    height: 15px;
+    width: 70%;
+    border: 2px solid black;
+    margin-left: 70px;
+}
+
+.skill4{
+    height: 15px;
+    width: 70%;
+    border: 2px solid black;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.contacts a{
+    text-decoration: none;
+}
+
+.footer{
+    border: 2px solid black;
+    background-color: #d2dae4;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* .services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.servicesSets{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black;  */
+    height: 100px;
+    width: 100%;
+}
+
+.servicesSets div{
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.skill1{
+    /* display: flex; */
+    padding: 5px 5px 5px 10px;
+}
+
+
+
+.s1Img{
+    height: 30px;
+    width: 30px;
+    background-image: url("s1.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
